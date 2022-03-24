@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .container {
@@ -16,4 +17,25 @@
 
 div {
     border: 1px solid black;
+}
+
+.controls {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 20%;
+    height: 50px;
+    transform: translate(-50%, 0);
+    border: none;
+    background-color: #00000044;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button {
+    padding: 5px;
+    background-color: rgb(55, 144, 55);
+    color: #fff;
 }
