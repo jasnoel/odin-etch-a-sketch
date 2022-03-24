@@ -6,9 +6,11 @@
 }
 
 .container {
+    margin: 200px auto;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 500px;
+    max-width: 500px;
 }
 .container div {
     display: flex;
