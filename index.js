@@ -7,6 +7,9 @@ for (let i = 0; i < SQUARE_DIMENSIONS; i++) {
     container.appendChild(div);
     for (let j = 0; j < SQUARE_DIMENSIONS; j++) {
         const subDiv = document.createElement("div");
+        subDiv.addEventListener('mouseover', (e) => {
+            e.target.style.backgroundColor = 'red';
+        });
         div.appendChild(subDiv);
     }
 }
